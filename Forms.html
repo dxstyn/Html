@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <p>HTML forms are essential for collecting and processing user inputs on web pages</p>
+    <form action="https://www.tiktok.com/foryou" target="_blank" method="post" enctype="">
+     <!--
+    Form attributes
+    -ation: Specifies the URL where the form data will be sent
+    -method: Determines how the form data is sent. Common values are GET and POST
+    -enctype: Specifies how form data should be encoded when it is sent to the server.
+    It is particularly important when uploadind files or when sending non-texual data.
+    -->
+    <label for="Fullname">Your Fullname</label>
+    <input type="text" id="Fullname" name="Fullname"/><br><br>
+
+    <label for="YOB">Year of Birth</label>
+    <input type="number" name="YOB" id="YOB"><br><br>
+
+    <label for="personal-email">Email</label>
+    <input type="email" id="personal-email" name="personal-email"/><br><br>
+
+    <label for="pass">Password</label>
+    <input type="password" name="pass" id="pass"/><br><br>
+
+    <label for="gender">Gender</label>
+    <input type="radio" name="Gender" id="male" value="mume" />
+    <label for="male">Male</label>
+    <input type="radio" name="Gender" id="female" value="kike"/>
+    <label for="female">Female</label><br><br>
+
+    <input type="file" name="profileimage" id="profileimage" /><br><br>
+
+    <input type="submit" value="Login"/><br><br>   
+    <!--
+    Form element attributes
+    -type: Provides input validation features on the browser/ client side
+    -name: Identifies the form for server-side processing
+    -id: Assings a unique idenifier to the form.   
+    -for: used to assing a label to an input element (the value should match the inputsid value) 
+    -->
+
+    </form>
+    <a href="https.youtube.com">youtube</a> <!--trigger a http get request-->
+    <!--HTTP Methods--GET, POST, PUT, PATCH, DELETE-->
+    <!--strucural elements-->
+</body>
+</html>
